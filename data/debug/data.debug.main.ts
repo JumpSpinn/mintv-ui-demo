@@ -1,0 +1,56 @@
+import { AnimationMenuData } from "@/data/data.animation.menu.ts";
+import { DebugData_LockPick } from "@/data/debug/data.debug.lockpick.ts";
+import { DebugData_Wasted } from "@/data/debug/data.debug.wasted.ts";
+import { DebugData_Modal } from "@/data/debug/data.debug.modal.ts";
+import { DebugData_ProgressBar } from "@/data/debug/data.debug.progressbar.ts";
+import { DebugData_KeyHelp } from "@/data/debug/data.debug.keyhelp.ts";
+import { DebugData_CharSelect } from "@/data/debug/data.debug.charselect.ts";
+import { DebugData_PlayerSettings } from "@/data/debug/data.debug.playersettings.ts";
+import { DebugData_Garage } from "@/data/debug/data.debug.garage.ts";
+import { DebugData_GasStation } from "@/data/debug/data.debug.gasstation.ts";
+import { DebugData_NPCDialog } from "@/data/debug/data.debug.npcdialog.ts";
+import { DebugData_Bank } from "@/data/debug/data.debug.bank.ts";
+import { DebugData_ATM } from "@/data/debug/data.debug.atm.ts";
+import { DebugData_Inventory } from "@/data/debug/data.debug.inventory.ts";
+import { DebugData_Radial } from "@/data/debug/data.debug.radial.ts";
+import { DebugData_WorldAxis } from "@/data/debug/data.debug.worldaxis.ts";
+import { DebugData_PostOffice } from "@/data/debug/data.debug.postoffice.ts";
+import { DebugData_Tattoo } from "@/data/debug/data.debug.tattoo.ts";
+import { DebugData_ClothingShop } from "@/data/debug/data.debug.shop.clothing.ts";
+
+export class DebugTestData {
+	public static readonly LockPickVehicle = DebugData_LockPick.LockPickVehicle;
+	public static readonly wastedDeath = DebugData_Wasted.wastedDeath;
+	public static readonly modal = DebugData_Modal.ModalData;
+	public static readonly modalCancelKey = DebugData_Modal.ModalCancelKey;
+	public static readonly progressBar = DebugData_ProgressBar.ProgressBarData;
+	public static readonly keyHelper = DebugData_KeyHelp.KeyHelpData;
+	public static readonly characterselect = DebugData_CharSelect.CharSelectData;
+	public static readonly CharacterSelectOfflineMsg = DebugData_CharSelect.OfflineMessageData;
+	public static readonly settings = DebugData_PlayerSettings.DefaultSettings;
+	public static readonly animMenuData = AnimationMenuData.DebugMenuData;
+	public static readonly garageData = DebugData_Garage.GarageData;
+	public static readonly garageTestParkedInVehicles = DebugData_Garage.TestParkedInVehicles;
+	public static readonly GasStationData = DebugData_GasStation.GasStationData;
+	public static readonly npcDialog = DebugData_NPCDialog.DialogData;
+	public static readonly BankAccounts = DebugData_Bank.BankAccounts;
+	public static readonly BankConditions = DebugData_Bank.BankConditions;
+	public static readonly BankTransactions = DebugData_Bank.BankTransactions;
+	public static readonly BankMessages = DebugData_Bank.BankMessages;
+	public static readonly BankCards = DebugData_Bank.BankCards;
+	public static readonly BankOrders = DebugData_Bank.BankOrders;
+	public static readonly BankCosts = DebugData_Bank.BankCosts;
+	public static readonly CreditCards = DebugData_Bank.CreditCards;
+	public static readonly AtmDtoData = DebugData_ATM.ATMData;
+	public static readonly ItemTemplatesData = DebugData_Inventory.ItemTemplates;
+	public static readonly InvExternContainers = DebugData_Inventory.ExternContainerData;
+	public static readonly InvEnvironmentItems = DebugData_Inventory.EnvironmentItemsData;
+	public static readonly InventoryDtoData = DebugData_Inventory.InventoryData;
+	public static readonly RadialMenuData = DebugData_Radial.MenuData;
+	public static readonly worldAxis = DebugData_WorldAxis.DefaultData;
+	public static readonly postOffice = DebugData_PostOffice.DefaultData;
+	public static readonly tattoos = DebugData_Tattoo.Tattoos;
+	public static readonly clothingShopItems = DebugData_ClothingShop.Clothings;
+}
+
+export default DebugTestData;
